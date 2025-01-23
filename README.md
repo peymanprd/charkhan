@@ -1,4 +1,3 @@
-````markdown
 # Charkhan 🎠
 
 A fully customizable, functional, and responsive slider built with **TypeScript**. Perfect for modern web applications!
@@ -24,7 +23,6 @@ Install the package via npm:
 ```bash
 npm install charkhan
 ```
-````
 
 ---
 
