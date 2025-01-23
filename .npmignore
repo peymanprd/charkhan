@@ -1,0 +1,21 @@
+# Ignore everything by default
+*
+
+# Include the compiled files in the dist folder
+/dist
+
+# Include the CSS styles
+/src/styles
+
+# Include the README and LICENSE files
+README.md
+LICENSE
+
+# Exclude unnecessary files and folders
+/node_modules
+/.git
+/.vscode
+/tsconfig.json
+/test
+/src/**/*.ts
+!src/index.ts

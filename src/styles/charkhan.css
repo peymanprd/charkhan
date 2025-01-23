@@ -1,0 +1,63 @@
+.charkhan {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.charkhan-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.charkhan-slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.charkhan-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.charkhan-pagination span {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.charkhan-pagination span.active {
+  background: #333;
+}
+
+.charkhan-button-prev,
+.charkhan-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.charkhan-button-prev {
+  left: 10px;
+}
+
+.charkhan-button-next {
+  right: 10px;
+}
+
+.lazy {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.lazy.loaded {
+  opacity: 1;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "charkhan",
+  "version": "1.0.0",
+  "description": "A fully customizable, functional, and responsive slider built with TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slider",
+    "carousel",
+    "typescript",
+    "responsive",
+    "touch",
+    "charkhan"
+  ],
+  "author": "Peyman Pirzadeh",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "src/styles/**/*"
+  ]
+}
